@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="20" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+        fx:controller="com.devricks.pomodoro.technique.controller.PomodoroController"
+      style="-fx-padding: 40; -fx-font-size: 24;">
+
+    <Label fx:id="statusLabel" text="Status: Work"/>
+    <Label fx:id="timerLabel" text="Time Left: 25:00"/>
+
+</VBox>
